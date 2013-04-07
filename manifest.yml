@@ -1,0 +1,9 @@
+---
+applications:
+- name: magibday
+  framework: rails3
+  runtime: ruby19
+  memory: 256M
+  instances: 1
+  url: magibday.${target-base}
+  path: .
